@@ -8,7 +8,27 @@
     color: #fff
   }
 
-  .cs.border{
+  .cs-bg-lightdark{
+    background-color: lightslategrey;
+    color: white;
+  }
+
+  .cs-border{
     border: 1px solid white;
     font-size: 2rem;
+  }
+
+  .cs-but{
+    background-color: #1abc9c;
+    color: #fff;
+    border: 1px solid white;
+    width: 40%;
+    border-radius: 5px;
+  }
+
+  .cs-icon i{
+    border: 1px solid white;
+    border-radius: 25%;
+    font-size: 1.5rem;
+    padding: 5px 5px;
   }
