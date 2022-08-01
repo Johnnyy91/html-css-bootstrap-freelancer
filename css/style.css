@@ -32,3 +32,64 @@
     font-size: 1.5rem;
     padding: 5px 5px;
   }
+
+  .cs-bg-dark a{
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .cs-star{
+    width: 30%;
+    height: 3px;
+    border-radius: 25px;
+    background-color: white;
+    display: inline-block;
+  }
+
+  .cs-star-black{
+    width: 30%;
+    height: 3px;
+    border-radius: 25px;
+    background-color:#2c3e50;
+    display: inline-block;
+  }
+
+  .line:before{
+    content: "";
+    display: inline-block;
+    background-color: #fff;
+    width: 200px;
+    height: 8px;
+    border-radius: 25px;
+  }
+
+  .line::after{
+    content: "";
+    display: inline-block;
+    background-color: #fff;
+    width: 200px;
+    height: 8px;
+    border-radius: 25px;
+  }
+
+  .line-black:before{
+    content: "";
+    display: inline-block;
+    background-color:#2c3e50;
+    width: 200px;
+    height: 8px;
+    border-radius: 25px;
+  }
+
+  .line-black::after{
+    content: "";
+    display: inline-block;
+    background-color:#2c3e50;
+    width: 200px;
+    height: 8px;
+    border-radius: 25px;
+  }
+
+
+
